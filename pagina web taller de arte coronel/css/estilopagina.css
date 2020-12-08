@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: : 0px;
+
+}
+
+
+
+#body{
+	
+	width: 80%;/* ancho */
+	margin: 0:auto;
+
+background: linear-gradient(to top, #AED6F1  ,  #2471A3);
+
+
+  background-position: 100px 0;
+ 
+
+	overflow: hidden;
+	margin: 0.5em auto; /* margen el auto hace q se centre el div*/
+	padding: 0.5em;/*el espacio alrededor del div*/
+	max-width: 1000px;
+}
+
+
+.header{
+  height: 15%;
+  border-radius: 1em; /* borde redondiado del div */
+  margin: 1em;
+  background: white;
+
+}
+
+
+
+
+#contenido{
+	 height: auto;
+	 width: auto;
+	margin: 1em;
+	
+	box-sizing: border-box;
+	overflow: hidden;
+
+}
+
+#contenidodelsection {
+	border-radius: 1em; /* borde redondiado del div */
+	padding: 0.5em;/*el espacio alrededor del div*/
+background: linear-gradient(to top, white,#AED6F1  );
+ width: 75%;
+           float: left;
+        margin: 5px;
+        	box-sizing: border-box;
+        	text-align: justify;
+
+
+}
+
+
+#contenidodelaside{
+    	margin: 5px;
+	border-radius: 1em; /* borde redondiado del div */
+	padding: 0.5em;/*el espacio alrededor del div*/
+	box-sizing: border-box;
+        width: 20%;
+        margin-right: 5px;
+background: linear-gradient(to top, white,#B6DBF5);
+
+
+        float: right;
+         
+         height: 100%;
+}
+
+
+
+
+
+#footer{
+	box-sizing: border-box;
+	clear: both;
+	height: 15%;
+	border-radius: 1em; /* borde redondiado del div */
+	margin: 1em;
+	color: white;
+
+	background: linear-gradient(#17202A 50%, #1B2631   50%);
+  background-size: 100% 50px;
+
+
+
+	padding: 0.5em;/*el espacio alrededor del div*/
+
+
+
+
+}
+
+ul#listaredes li {
+	display:inline;
+	margin-left:3px;
+	margin-right:3px;
+
+}
+
+ul#listaredes li a {
+	margin: 5;
+}
+ul#listaredes li img {
+border-radius: 0.8em; /* borde redondiado del div */
+width: 32px ;
+height:32px;
+
+
+}
+
+
+
+
+@media screen and (max-width: 420px){
+	#contenidodelsection {
+	width: 97%;
+
+	}
+	#contenidodelaside {
+		display: none;
+	
+	}
+}

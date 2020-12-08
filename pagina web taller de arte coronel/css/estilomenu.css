@@ -1,0 +1,31 @@
+#menunav {
+    
+    
+}
+
+
+#menunav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #072A40;
+    
+}
+
+#menunav li {
+    float: left;
+}
+
+#menunav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* cambia de color cuando el mouse enta encima*/
+#menunav li a:hover {
+   background: linear-gradient(to top, #32A8F3  ,  #074064);
+}
